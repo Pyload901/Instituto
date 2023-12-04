@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #2B324A;
+    color: #ffffff; /* Color del texto en el encabezado */
+    padding: 60px; /* Ajusta el espaciado interno según tus preferencias */
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header div {
+    margin: 0;
+    float:right;
+}
+
+header img {
+        float: left;
+        margin-right: 15px;
+        width: 80px;
+        height: 100px;
+        margin-top: -40px; /* Ajusta el margen superior según tus preferencias */
+        margin-left: -40px;
+        
+    }
+
+.enlace-iniciosesion {
+        color: white; /* Color del texto */
+        text-decoration: underline; /* Subrayado */
+      }
+    
+.formulario {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1 rem;
+    } 
+    
+.formulario button {
+    color: white;
+}
+
+    div {
+        text-align: left; /* Centra la imagen horizontalmente dentro del div */
+    }
+    
+    div img {
+        margin-left: 1300px; /* Ajusta el margen derecho según tus preferencias */
+        width: 650px; /* Ajusta el ancho de la imagen según tus preferencias */
+        height: 650px; /* Ajusta la altura de la imagen según tus preferencias */
+        max-width: 2400px;
+        margin-top: -700px;
+    }
+    

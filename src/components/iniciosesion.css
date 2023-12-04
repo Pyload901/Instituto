@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #2B324A;
+    color: #ffffff; /* Color del texto en el encabezado */
+    padding: 10px; /* Ajusta el espaciado interno según tus preferencias */
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header div {
+    margin: 0; 
+    float:right;
+    background-color: #2B324A;
+    color: #DDDDDD;
+    text-align: right;
+    
+}
+
+header img {
+        float: left;
+        margin-right: 15px;
+        width: 50px;
+        height: 120px;
+        margin-top: 15px; /* Ajusta el margen superior según tus preferencias */
+        margin-left: -96px;
+        
+    }
+
+.enlace-registro {
+    color: white; /* Color del texto */
+    text-decoration: underline; /* Subrayado */
+  }
+  
+
+div h1 {
+    margin-top:80px;
+    margin-left: 700px;}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1 rem;
+} 
+
+.formulario label {
+    margin-top: 30px;
+    margin-right: 1050px;
+}
+
+.formulario button {
+    margin-top: 30px;
+    font-size: 24px;
+    margin-right: 500px;
+    background-color: #2B324A;
+    color: white;
+}
+
+   .nocuenta button {
+    margin-left: 550px;
+    margin-top: 60px;
+    padding: 10px; /* Ajusta el relleno del botón */
+        border: none; /* Elimina el borde del botón */
+        border-radius: 5px; /* Redondea las esquinas del botón */
+        cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+        border-radius: 25px;
+        font-size: 25px;
+   }
+    
+    .image img {
+        margin-top: -500px;
+        width: 600px;
+        height: 500px;
+        margin-left: 1300px;
+
+    }
+    
