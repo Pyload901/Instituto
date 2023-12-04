@@ -1,20 +1,35 @@
-import '../components/Compraprodu.css'
+import './Tareas.css'
 import { NavLink } from 'react-router-dom';
 
-function compraprodu (){
-    return (
-        <div>
-            <header>
-            <img alt="Buho" src="src/Img/Logo.png"/>
-            <h1>Instinto Académico</h1>
-            <div className="cerrarsesion">
+function Tareas () {
+    
+      
+  return(
+    <div>
+       <header>
+        <img alt="Buho" src="src/Img/Logo.png"/>
+        <h1>Instinto Academico</h1>
+        <div className="cerrarsesion">
             <NavLink to="/cerrarsesion"><img alt="Cerrarsesion" src="src/Img/salida.png"/></NavLink>
             <h2>Cerrar Sesion</h2>
         </div>
-        </header>
+       
+       </header> 
 
-        <div className="main-container">
-        <aside className="sidebar">
+    <div className="busqueda">
+    <input
+      type="text"
+      placeholder="Buscar..."/>
+    <button>Buscar</button>
+    </div>
+
+    <div className="Product">
+    <NavLink to="/PublicarTar"><button className="boton-publicar">Publicar Tarea</button></NavLink>
+</div>
+
+
+<div className="main-container">
+        <aside className="sidebar2">
           <div className="inicio">
             <NavLink to="/opciones"><img src="src/Img/inicio.png" alt="inicio" /></NavLink>
             <p>Inicio</p>
@@ -42,27 +57,23 @@ function compraprodu (){
         </aside>
         </div>
 
-    <div className="regla">
-    <img src="src/Img/regla t 2.png" alt="Imagenregla" />
-    </div>
-
-    <div className="tema1">
-        <h1>Regla T</h1>
-    </div>
-
-    <div className="cuadradu">
-        <h2> Se vende Regla T, en buen estado. Se entrega dentro de campus.
-            Contactar al número: 7554-2885</h2>
-            <p>$8.00</p>
-    </div>
-
-    <div className="circu">
-        <NavLink to="/Comprar"><button>Comprar</button></NavLink>
-    </div>
-
-      
+        <div className="Progra">
+            <h1>Tarea sobre web</h1>
+            <img alt="progra" src="src/Img/Cuaderno 2.png"/>
+            <button>Responder</button>
         </div>
-    );
-}
 
-export default compraprodu;
+        <div className="Algebra">
+            <h1>Tarea sobre Matrices</h1>
+            <img alt="algebra" src="src/Img/image 11.png"/>
+            <button>Responder</button>
+        </div>
+    
+         
+
+    </div> 
+
+    );
+
+}
+export default Tareas;

@@ -1,4 +1,4 @@
-import '../components/guardados.css';
+import './guardados.css';
 import { NavLink } from 'react-router-dom';
 
 function guardados (){

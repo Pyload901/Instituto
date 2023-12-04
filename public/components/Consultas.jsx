@@ -1,4 +1,4 @@
-import '../components/Consultas.css'
+import './Consultas.css'
 import { NavLink } from 'react-router-dom';
 
 function Consultas (){

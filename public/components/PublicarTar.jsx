@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../components/PublicarTar.css'
+import './PublicarTar.css'
 
 function PublicarTar() {
   const [imagen, setImagen] = useState('');

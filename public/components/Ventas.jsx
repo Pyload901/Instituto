@@ -1,7 +1,7 @@
-import '../components/Tareas.css'
+import './Ventas.css'
 import { NavLink } from 'react-router-dom';
 
-function Tareas () {
+function Venta () {
     
       
   return(
@@ -23,13 +23,13 @@ function Tareas () {
     <button>Buscar</button>
     </div>
 
-    <div className="Product">
-    <NavLink to="/PublicarTar"><button className="boton-publicar">Publicar Tarea</button></NavLink>
+    <div className="Product1">
+    <NavLink to="/PublicarProducto"><button className="boton-publicar1">Publicar Producto</button></NavLink>
 </div>
 
 
 <div className="main-container">
-        <aside className="sidebar2">
+        <aside className="sidebar1">
           <div className="inicio">
             <NavLink to="/opciones"><img src="src/Img/inicio.png" alt="inicio" /></NavLink>
             <p>Inicio</p>
@@ -57,17 +57,28 @@ function Tareas () {
         </aside>
         </div>
 
-        <div className="Progra">
-            <h1>Tarea sobre web</h1>
-            <img alt="progra" src="src/Img/Cuaderno 2.png"/>
-            <button>Responder</button>
+        <div className="Cuadro">
+            <h1>Libro de Precálculo</h1>
+            <img src="src/Img/Libro 2.png" alt="Precalculo"/>
+            <h3>$10.00</h3>
+            <button type="submit">Comprar</button>
         </div>
 
-        <div className="Algebra">
-            <h1>Tarea sobre Matrices</h1>
-            <img alt="algebra" src="src/Img/image 11.png"/>
-            <button>Responder</button>
+        <div className="imagen">
+        <NavLink to="/Guardados"><img src="src/Img/Vector.png" alt="guardar"/></NavLink>
         </div>
+
+        <div className="Cuadro1">
+            <h1>Regla T</h1>
+            <img src="src/Img/regla t 2.png" alt="reglat"/>
+            <h3>$8.00</h3>
+            <NavLink to="/Compraprodu"><button type="submit">Comprar</button></NavLink>
+        </div>
+
+        <div className="imagen1">
+        <NavLink to="/Guardados"><img src="src/Img/Vector.png" alt="guardar"/></NavLink>
+        </div>
+
     
          
 
@@ -76,4 +87,4 @@ function Tareas () {
     );
 
 }
-export default Tareas;
+export default Venta;

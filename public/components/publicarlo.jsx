@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import '../components/Push.css'
+import './publicarlo.css'
 
 
 
-function Push () {
-  const confirmarPublic = () => {
+function publicarlo () {
+  const confirmarCierreSesion = () => {
     var respuesta = window.confirm("¿Estás seguro de Publicar el producto?");
     if (respuesta) {
       // Aquí puedes agregar el código para cerrar sesión
@@ -27,14 +27,14 @@ function Push () {
 
   return (
     <div>
-      
-      <h1>¿Estás seguro de publicar el Producto?</h1>
+      {/* Contenido de la página */}
+      <h1>¿Estás seguro de publicar el producto?</h1>
 
-      
-      <NavLink to="/Ventas"><button onClick={confirmarPublic}>Publicar</button></NavLink>
+      {/* Botón para cerrar sesión */}
+      <NavLink to="/Ventas"><button onClick={confirmarCierreSesion}>Publicar</button></NavLink>
       <button onClick={volverPaginaActual}>Cancelar</button>
     </div>
   );
 }
 
-export default Push;
+export default publicarlo;

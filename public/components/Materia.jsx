@@ -1,4 +1,4 @@
-import '../components/Ventas.css'
+import './Materias.css'
 import { NavLink } from 'react-router-dom';
 
 function Venta () {
@@ -13,23 +13,11 @@ function Venta () {
             <NavLink to="/cerrarsesion"><img alt="Cerrarsesion" src="src/Img/salida.png"/></NavLink>
             <h2>Cerrar Sesion</h2>
         </div>
-       
        </header> 
 
-    <div className="busqueda">
-    <input
-      type="text"
-      placeholder="Buscar..."/>
-    <button>Buscar</button>
-    </div>
 
-    <div className="Product1">
-    <NavLink to="/PublicarProducto"><button className="boton-publicar1">Publicar Producto</button></NavLink>
-</div>
-
-
-<div className="main-container">
-        <aside className="sidebar1">
+       <div className="main-container">
+        <aside className="sidebar">
           <div className="inicio">
             <NavLink to="/opciones"><img src="src/Img/inicio.png" alt="inicio" /></NavLink>
             <p>Inicio</p>
@@ -57,34 +45,34 @@ function Venta () {
         </aside>
         </div>
 
-        <div className="Cuadro">
-            <h1>Libro de Precálculo</h1>
-            <img src="src/Img/Libro 2.png" alt="Precalculo"/>
-            <h3>$10.00</h3>
-            <button type="submit">Comprar</button>
+        <div className="AVM">
+            <h2>Algebra Vectorial y matrices</h2>
+            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
         </div>
 
-        <div className="imagen">
-        <NavLink to="/Guardados"><img src="src/Img/Vector.png" alt="guardar"/></NavLink>
+        <div className="PW">
+            <h2>Programación Web</h2>
+            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
         </div>
 
-        <div className="Cuadro1">
-            <h1>Regla T</h1>
-            <img src="src/Img/regla t 2.png" alt="reglat"/>
-            <h3>$8.00</h3>
-            <NavLink to="/Compraprodu"><button type="submit">Comprar</button></NavLink>
+        <div className="TEI">
+            <h2>Taller Espacial I</h2>
+            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
         </div>
 
-        <div className="imagen1">
-        <NavLink to="/Guardados"><img src="src/Img/Vector.png" alt="guardar"/></NavLink>
+        <div className="TI">
+            <h2>Termodinamica I</h2>
+            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
         </div>
 
-    
-         
+        <div className="QI">
+            <h2>Quimica Inorganica</h2>
+            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
+        </div>
 
-    </div> 
 
-    );
+        </div>
+        );  
 
 }
 export default Venta;

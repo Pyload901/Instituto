@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import '../components/cerrarsesion.css'
+import './cerrarsesion.css'
 
 
 

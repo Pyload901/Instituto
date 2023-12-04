@@ -1,4 +1,4 @@
-import '../components/registro.css'
+import './registro.css'
 import {NavLink} from "react-router-dom"
 import { useState } from 'react';
 

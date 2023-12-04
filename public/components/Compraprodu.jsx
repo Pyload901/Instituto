@@ -1,22 +1,19 @@
-import '../components/Materias.css'
+import './Compraprodu.css'
 import { NavLink } from 'react-router-dom';
 
-function Venta () {
-    
-      
-  return(
-    <div>
-       <header>
-        <img alt="Buho" src="src/Img/Logo.png"/>
-        <h1>Instinto Academico</h1>
-        <div className="cerrarsesion">
+function compraprodu (){
+    return (
+        <div>
+            <header>
+            <img alt="Buho" src="src/Img/Logo.png"/>
+            <h1>Instinto Académico</h1>
+            <div className="cerrarsesion">
             <NavLink to="/cerrarsesion"><img alt="Cerrarsesion" src="src/Img/salida.png"/></NavLink>
             <h2>Cerrar Sesion</h2>
         </div>
-       </header> 
+        </header>
 
-
-       <div className="main-container">
+        <div className="main-container">
         <aside className="sidebar">
           <div className="inicio">
             <NavLink to="/opciones"><img src="src/Img/inicio.png" alt="inicio" /></NavLink>
@@ -45,34 +42,27 @@ function Venta () {
         </aside>
         </div>
 
-        <div className="AVM">
-            <h2>Algebra Vectorial y matrices</h2>
-            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
+    <div className="regla">
+    <img src="src/Img/regla t 2.png" alt="Imagenregla" />
+    </div>
+
+    <div className="tema1">
+        <h1>Regla T</h1>
+    </div>
+
+    <div className="cuadradu">
+        <h2> Se vende Regla T, en buen estado. Se entrega dentro de campus.
+            Contactar al número: 7554-2885</h2>
+            <p>$8.00</p>
+    </div>
+
+    <div className="circu">
+        <NavLink to="/Comprar"><button>Comprar</button></NavLink>
+    </div>
+
+      
         </div>
-
-        <div className="PW">
-            <h2>Programación Web</h2>
-            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
-        </div>
-
-        <div className="TEI">
-            <h2>Taller Espacial I</h2>
-            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
-        </div>
-
-        <div className="TI">
-            <h2>Termodinamica I</h2>
-            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
-        </div>
-
-        <div className="QI">
-            <h2>Quimica Inorganica</h2>
-            <NavLink to="/Tareas"><h4>Ver más...</h4></NavLink>
-        </div>
-
-
-        </div>
-        );  
-
+    );
 }
-export default Venta;
+
+export default compraprodu;

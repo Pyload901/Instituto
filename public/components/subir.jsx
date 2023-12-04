@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import '../components/subir.css'
+import './subir.css'
 
 
 

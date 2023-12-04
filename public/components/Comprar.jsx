@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import '../components/Comprar.css'
+import './Comprar.css'
 
 
 
