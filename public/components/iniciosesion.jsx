@@ -23,7 +23,7 @@ function iniciosesion(setUser) {
     <>
       <body>
         <header>
-          <img alt="Buho" src="/Img/Logo.png" />
+          <img alt="Buho" src="/src/Img/Logo.png" />
           <h1>Bienvenidos a Instinto Académico de ayuda estudiantil</h1>
           <div>
           <NavLink to="/registro" className="enlace-registro">Regístrate</NavLink>
@@ -62,7 +62,7 @@ function iniciosesion(setUser) {
           </div>
        
           <div className="image">
-          <img alt="image4" src="/Img/image 4.png" />
+          <img alt="image4" src="/src/Img/image 4.png" />
           </div>
         
       </body>
